@@ -4,7 +4,7 @@ import math
 def safe_eval(expression):
     try:
         tree = ast.parse(expression, mode='eval')
-        print(ast.dump(tree, indent=4)) 
+        # print(ast.dump(tree, indent=4)) 
 
         allowed_operators = (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.Pow)
         # Expression:単一式, BinOp:二項演算子, Constant:数値, UnaryOp:単項演算(-x, +x), Pow:累乗, Call:関数
