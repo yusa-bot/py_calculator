@@ -46,6 +46,8 @@ ex.)
 ```
 
 ## ファイル構成
+```bash
 calculator/
   │── calculator.py #実装ファイル
   └── memo.py #学習用メモ
+```
